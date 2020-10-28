@@ -121,3 +121,20 @@ main .billboard .m-1,
 .m-2 {
   margin-bottom: 15px;
 }
+
+aside {
+  width: 1440px;
+  height: 200px;
+  margin-top: 32em;
+}
+
+aside .clickbaite {
+  display: flex;
+}
+
+aside img {
+  width: 360px;
+  height: 200px;
+  padding: 1px;
+}
+
