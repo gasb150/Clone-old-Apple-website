@@ -13,42 +13,46 @@ header {
 nav {
   width: 980px;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
   height: 36px;
-  color:white;
+  color: white;
 }
 
 .pointer {
   cursor: pointer;
 }
+
 .nav-bar {
   width: 845px;
   box-sizing: border-box;
-  border-radius: 5px; 
+  border-radius: 5px;
   display: grid;
-  grid-template-columns: repeat(8,1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-template-rows: 1fr;
   font-size: 13px;
 }
 
-.nav-bar a {
-padding: 10% 0;
-box-sizing: border-box;
-border-left: 1px rgb(68, 67, 67) solid;
-text-align: center;
-height: auto;
-display: inline-block;
-height: 36px;
-background-color: gray;
-background-image:linear-gradient(rgb(114, 114, 114)50%,rgb(141, 141, 141)50%);
-  box-shadow: inset rgb(207, 204, 204) 0 0 2px;
-  border: rgb(97, 95, 95) 1px ridge;
-box-shadow: rgb(19, 18, 18) 0px 0px 1px;
+footer a {
+  text-decoration: none;
+  color: #08c;
 }
 
-.nav-bar *:hover { 
+.nav-bar a {
+  padding: 10% 0;
+  box-sizing: border-box;
+  border-left: 1px rgb(68, 67, 67) solid;
+  text-align: center;
+  display: inline-block;
+  height: 36px;
+  background-color: gray;
+  background-image: linear-gradient(rgb(114, 114, 114) 50%, rgb(141, 141, 141) 50%);
+  border: rgb(97, 95, 95) 1px ridge;
+  box-shadow: rgb(19, 18, 18) 0 0 1px;
+}
+
+.nav-bar *:hover {
   background: none;
   background-origin: content-box;
   background-color: rgb(54, 54, 54);
@@ -69,13 +73,12 @@ box-shadow: rgb(19, 18, 18) 0px 0px 1px;
   box-sizing: border-box;
   height: 36px;
   width: auto;
-  border: none;
   display: flex;
   justify-content: center;
-  border-top-left-radius: 5px ;
+  border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   background-color: gray;
-  background-image:linear-gradient(rgb(114, 114, 114)50%,rgb(141, 141, 141)50%);
+  background-image: linear-gradient(rgb(114, 114, 114) 50%, rgb(141, 141, 141) 50%);
   box-shadow: inset rgb(207, 204, 204) 0 0 2px;
   border: rgb(97, 95, 95) 1px ridge;
 }
@@ -92,7 +95,7 @@ box-shadow: rgb(19, 18, 18) 0px 0px 1px;
   width: 132px;
   max-height: 36px;
   height: 100%;
-  background-image:linear-gradient(rgb(114, 114, 114)50%,rgb(141, 141, 141)50%);
+  background-image: linear-gradient(rgb(114, 114, 114) 50%, rgb(141, 141, 141) 50%);
   box-shadow: inset rgb(207, 204, 204) 0 0 2px;
   border: rgb(97, 95, 95) 1px ridge;
   align-self: center;
@@ -113,6 +116,7 @@ input {
   padding: 2px 4px;
   box-shadow: inset -2px 1px 0.5px rgb(90, 87, 87);
 }
+
 .search-icon {
   position: relative;
   top: -15px;
@@ -171,7 +175,7 @@ footer {
   justify-content: center;
   width: 100%;
   margin-top: 30px;
-  font-size:9px;
+  font-size: 9px;
   color: #6e6e6e;
 }
 
@@ -187,11 +191,6 @@ footer ul {
   display: flex;
 }
 
-footer a {
-  text-decoration: none;
-  color: #0088cc;
-}
-
 footer .left {
   display: block;
   width: 50%;
@@ -199,19 +198,19 @@ footer .left {
   float: right;
 }
 
-footer .left .down{
+footer .down {
+  margin: 10px 4px 0 0;
+}
+
+footer .left .down {
   position: relative;
   display: inline-block;
 }
 
 footer .right li {
-  padding: 0 2px
+  padding: 0 2px;
 }
 
 footer .right .this {
   padding-left: 30px;
-}
-
-footer .down {
-  margin: 10px 4px 0 0;
 }
