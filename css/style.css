@@ -1,5 +1,6 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  overflow-x: hidden;
 }
 
 header {
@@ -123,10 +124,10 @@ input {
   left: 4px;
 }
 
-main {
+.first-section {
   position: absolute;
   top: 0;
-  width: 1440px;
+  width: 1396px;
   height: 540px;
   left: 50%;
   right: auto;
@@ -135,6 +136,7 @@ main {
   background-position-x: center;
   background-position-y: bottom;
   text-align: center;
+  overflow: hidden;
 }
 
 main .billboard {
@@ -159,13 +161,13 @@ aside {
 
 aside .clickbaite {
   display: flex;
-  justify-content: space-evenly;
   box-sizing: border-box;
+  width: 1396px;
 }
 
-aside img {
+aside .img {
   box-sizing: border-box;
-  width: 359px;
+  width: 24.1%;
   height: 200px;
   padding: 1px;
 }
