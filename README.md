@@ -2,7 +2,7 @@
 
 In this project we clone a old apple website.
 
-![screenshot](../assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/gasb150/Clone-old-Apple-website/feature-oldapple/assets/screenshot.png)
 
 In this project we clone a old apple website, we use: HTML and CSS (backgroduns, and gradients, flex-box, grid, float...), the web page have nav-bar secction, a background, 4 sections with img and footer.
 
