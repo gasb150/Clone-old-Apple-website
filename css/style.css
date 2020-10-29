@@ -42,7 +42,10 @@ height: auto;
 display: inline-block;
 height: 36px;
 background-color: gray;
-background-image:linear-gradient(rgb(119, 112, 112)45%,rgb(215, 218, 230)5%,rgb(151, 146, 146)45%);
+background-image:linear-gradient(rgb(114, 114, 114)50%,rgb(141, 141, 141)50%);
+  box-shadow: inset rgb(207, 204, 204) 0 0 2px;
+  border: rgb(97, 95, 95) 1px ridge;
+box-shadow: rgb(19, 18, 18) 0px 0px 1px;
 }
 
 .nav-bar *:hover { 
@@ -67,17 +70,20 @@ background-image:linear-gradient(rgb(119, 112, 112)45%,rgb(215, 218, 230)5%,rgb(
   height: 36px;
   width: auto;
   border: none;
-   display: flex;
+  display: flex;
   justify-content: center;
   border-top-left-radius: 5px ;
   border-bottom-left-radius: 5px;
-  position: relative;
   background-color: gray;
-  background-image:linear-gradient(rgb(114, 114, 114)25%,rgb(94,94,94)5%,rgb(112, 112, 112),rgb(141, 141, 141));
+  background-image:linear-gradient(rgb(114, 114, 114)50%,rgb(141, 141, 141)50%);
+  box-shadow: inset rgb(207, 204, 204) 0 0 2px;
+  border: rgb(97, 95, 95) 1px ridge;
 }
 
 .apple-logo {
+  margin: auto;
   height: 23px;
+  width: 23px;
 }
 
 .input-div {
@@ -86,11 +92,15 @@ background-image:linear-gradient(rgb(119, 112, 112)45%,rgb(215, 218, 230)5%,rgb(
   width: 132px;
   max-height: 36px;
   height: 100%;
-  background-image:linear-gradient(rgb(119, 112, 112)45%,rgb(215, 218, 230)5%,rgb(151, 146, 146)45%);
+  background-image:linear-gradient(rgb(114, 114, 114)50%,rgb(141, 141, 141)50%);
+  box-shadow: inset rgb(207, 204, 204) 0 0 2px;
+  border: rgb(97, 95, 95) 1px ridge;
   align-self: center;
   display: inline-block;
   padding: 10px 10px;
   border-left: 1px solid black;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 input {
