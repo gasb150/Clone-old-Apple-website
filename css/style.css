@@ -48,7 +48,7 @@ footer a {
   display: inline-block;
   height: 36px;
   background-color: gray;
-  background-image: linear-gradient(rgb(114, 114, 114) 50%, rgb(141, 141, 141) 50%);
+  background-image: linear-gradient(rgb(119, 119, 119) 50%, rgb(109, 109, 109) 50%);
   border: rgb(97, 95, 95) 1px ridge;
   box-shadow: rgb(19, 18, 18) 0 0 1px;
 }
@@ -79,9 +79,9 @@ footer a {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
   background-color: gray;
-  background-image: linear-gradient(rgb(114, 114, 114) 50%, rgb(141, 141, 141) 50%);
-  box-shadow: inset rgb(207, 204, 204) 0 0 2px;
+  background-image: linear-gradient(rgb(119, 119, 119) 50%, rgb(109, 109, 109) 50%);
   border: rgb(97, 95, 95) 1px ridge;
+  box-shadow: rgb(19, 18, 18) 0 0 1px;
 }
 
 .apple-logo {
@@ -96,13 +96,12 @@ footer a {
   width: 132px;
   max-height: 36px;
   height: 100%;
-  background-image: linear-gradient(rgb(114, 114, 114) 50%, rgb(141, 141, 141) 50%);
-  box-shadow: inset rgb(207, 204, 204) 0 0 2px;
+  background-image: linear-gradient(rgb(119, 119, 119) 50%, rgb(109, 109, 109) 50%);
   border: rgb(97, 95, 95) 1px ridge;
+  box-shadow: rgb(19, 18, 18) 0 0 1px;
   align-self: center;
   display: inline-block;
   padding: 10px 10px;
-  border-left: 1px solid black;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -131,7 +130,7 @@ input {
   height: 540px;
   left: 50%;
   right: auto;
-  margin-left: -720px;
+  margin-left: -698px;
   background: url(../assets/hero.jpg) no-repeat;
   background-position-x: center;
   background-position-y: bottom;
@@ -163,7 +162,6 @@ aside .clickbaite {
   display: flex;
   box-sizing: border-box;
   width: 1396px;
-  margin-right: 44px;
 }
 
 aside .img {
@@ -172,8 +170,9 @@ aside .img {
   height: 200px;
 }
 
-aside img {
-  max-width: 100%;
+#special img {
+  width: 348.3px;
+  height: 200px;
 }
 
 footer {
@@ -195,6 +194,7 @@ footer .container {
 
 footer ul {
   display: flex;
+  align-items: center;
 }
 
 footer .left {
