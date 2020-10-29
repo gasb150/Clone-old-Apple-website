@@ -24,7 +24,7 @@ In this project we clone a old apple website, we use: HTML and CSS (backgroduns,
 <p><strong>Miguel Ricaño</strong></p>
 <ul>
   <li>Github: <a href="https://github.com/mricanho">@MiguelRicaño</a>
-  <li>LinkedIn:<a href="https://www.linkedin.com/in/mricanho/"></a>Miguel Ricaño</li>
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/mricanho/">Miguel Ricaño</a></li>
 </ul>
   
 <h2>Contributing</h2>
