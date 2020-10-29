@@ -19,12 +19,12 @@ In this project we clone a old apple website, we use: HTML and CSS (backgroduns,
 <p><strong>Gustavo Sanmartin</strong></p>
 <ul>
   <li>Github: <a href="https://github.com/gasb150">@gasb150</a>
-  <li>LinkedIn: <a href="https://www.linkedin.com/in/gustavo-sanmartin-b3b68261/">
+  <li>LinkedIn: <a href="https://www.linkedin.com/in/gustavo-sanmartin-b3b68261/">Gustavo Sanmartin</a></li>
 </ul>
 <p><strong>Miguel Ricaño</strong></p>
 <ul>
   <li>Github: <a href="https://github.com/mricanho">@MiguelRicaño</a>
-  <li>LinkedIn:<a href="https://www.linkedin.com/in/mricanho/"></a></li>
+  <li>LinkedIn:<a href="https://www.linkedin.com/in/mricanho/"></a>Miguel Ricaño</li>
 </ul>
   
 <h2>Contributing</h2>
