@@ -156,20 +156,24 @@ aside {
   height: 200px;
   margin-top: 31em;
   padding-top: 10px;
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 aside .clickbaite {
   display: flex;
   box-sizing: border-box;
   width: 1396px;
+  margin-right: 44px;
 }
 
 aside .img {
   box-sizing: border-box;
-  width: 24.1%;
+  width: 25%;
   height: 200px;
-  padding: 1px;
+}
+
+aside img {
+  max-width: 100%;
 }
 
 footer {
