@@ -122,9 +122,11 @@ input {
 main {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 100%;
+  width: 1440px;
   height: 540px;
+  left: 50%;
+  right: auto;
+  margin-left: -720px;
   background: url(../assets/hero.jpg) no-repeat;
   background-position-x: center;
   background-position-y: bottom;
@@ -158,6 +160,7 @@ aside .clickbaite {
 }
 
 aside img {
+  box-sizing: border-box;
   width: 359px;
   height: 200px;
   padding: 1px;
@@ -168,14 +171,16 @@ footer {
   justify-content: center;
   width: 100%;
   margin-top: 30px;
-  font-size: 10px;
+  font-size:9px;
   color: #6e6e6e;
 }
 
 footer .container {
-  width: 100%;
+  width: 980px;
   display: flex;
   height: auto;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
 }
 
 footer ul {
@@ -192,7 +197,6 @@ footer .left {
   width: 50%;
   box-sizing: border-box;
   float: right;
-  padding-left: 27%;
 }
 
 footer .left .down{
