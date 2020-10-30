@@ -4,7 +4,7 @@ In this project we clone a old apple website.
 
 ![screenshot](https://raw.githubusercontent.com/gasb150/Clone-old-Apple-website/feature-oldapple/assets/screenshot.png)
 
-In this project we clone a old apple website, we use: HTML and CSS (backgroduns, and gradients, flex-box, grid, float...), the web page have nav-bar secction, a background, 4 sections with img and footer.
+In this project we clone an old apple website, we use: HTML and CSS (backgrounds, and gradients, flex-box, grid, float...), the web page has a nav-bar section, a background, 4 sections with image and footer. 
 
 <h2>Built with</h2>
 <ul>
